@@ -11,7 +11,7 @@
   <body>
     <div class="container contact-form">
       <div class="contact-image">
-        <img src="{{ url_for('static', filename='img/bg.jpg') }}" alt="rocket_contact" />
+        <img src="{{ url_for('static', filename='img/3.png') }}" alt="rocket_contact" />
       </div>
       <form action="/" method="post">
         <h3>Batu Ginjal prediction</h3>
@@ -48,6 +48,32 @@
           </div>
         </div>
       </form>
+    </div>
+    <div class="">
+      <br />
+      <br />
+      <div class="content">
+        <h2 style="text-align: center; font-weight: 600">Penjelasan Batu Ginjal prediction</h2>
+        <h3>Web ini di gunakan untuk mempredisi apakah seseorang terdapat batu ginjal atau tidak di dalam tubuhnya, dengan mempertimbangankan beberapa nilai input, antara lain :</h3>
+        <h4>Gravity</h4>
+        <p>Specific gravity (SG),merupakan masa jenis urine yang dalam kadar normal bernilai lebih kurang 1,003-1,030.</p>
+        <h4>Ph</h4>
+        <p>pH urine, menunjukkan tingkat keasaman urine dimana kadar normalnya 4,8 - 7,5.</p>
+        <h4>Osmo</h4>
+        <p>Osmoregulasi adalah kemampuan organisme untuk mempertahankan keseimbangan kadar dalam tubuh, didalam zat yang kadar gulanya berbeda.</p>
+        <h4>Cond</h4>
+        <p>Inkontinensia campuran (mixed incontinence) terjadi saat terdapat kombinasi antara inkontinensia tekanan dan dorongan (stress and urge incontinence)</p>
+        <h4>Urea</h4>
+        <p>ureum adalah zat sisa dari pemecahan protein dan asam amino di dalam hati. Ginjal yang sehat akan menyaring ureum dari tubuh melalui urine</p>
+        <h4>Cacl</h4>
+        <p>
+          Kalsium klorida memiliki beragam manfaat antara dalam industri semen yang dipergunakan sebagai pereduksi alkali, untuk mengontrol pertumbuhan mikroorganisme dalam industri herbisida, dan sebagai sumber kalsium untuk suplemen
+          makanan temak
+        </p>
+        <br />
+        <h3>untuk hasil yang akan di tampilkan pada web ini jika target bernilai [0] maka di dalam tubuh pasien tidak terdapat Batu ginjal, sebaliknya jika target bernilai [1] maka di dalam tubuh pasien tersebut terdapat batu ginjal.</h3>
+      </div>
+      <br />
     </div>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
